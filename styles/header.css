@@ -16,7 +16,7 @@
 }
 
 .cabeçalho {
-    background-color: var(--branco);
+    background-color: #000000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,7 +29,10 @@
 }
 
 .container__imagem {
-    padding: 1em;
+    padding: 0em;
+    width: 150px;
+    height: 150px;
+
 }
 
 .lista-menu {
@@ -68,6 +71,7 @@
 
 .container__titulo {
     display: none;
+    color:white
 }
 
 .opções {
@@ -102,11 +106,12 @@
     .opções__item {
         padding: 0 1em;
         text-transform: uppercase;
+        color:white
     }
 
     .opções__link {
         text-decoration: none;
-        color: var(--preto);
+        color: white;
     }
 
     .container__imagem-transparente {
