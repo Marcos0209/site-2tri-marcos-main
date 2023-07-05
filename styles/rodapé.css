@@ -3,7 +3,7 @@ hr {
 }
 
 .rodapé {
-    background-color: var(--branco);
+    background-color: var(--preto);
     padding: 1em;
 }
 
@@ -40,6 +40,7 @@ hr {
 
     .rodapé__titulo {
         font-size: 24px;
+        color: white;
     }
 }
 
